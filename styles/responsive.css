@@ -1,0 +1,259 @@
+/* latop and larger tablet landscape responsive */
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+  /* header section responsive */
+  .navbar {
+    width: 80%;
+  }
+  .banner-description {
+    padding-left: 60px;
+  }
+  .banner-image img {
+    width: 440px;
+    height: auto;
+  }
+  .banner-description h2 {
+    font-size: 50px;
+
+    line-height: 64px;
+    margin-bottom: 26px;
+  }
+  /* player section responsive */
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .player-cover img {
+    width: 440px;
+  }
+  /* highlight section responsive  */
+  .highlight-info h2 {
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 30px;
+  }
+  .highlight-image img {
+    width: 365px;
+    height: auto;
+  }
+   /* form responsive  */
+   .teams {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  .team {
+    width: 400px;
+  }
+  
+}
+
+@media only screen and (max-width: 990px) {
+  /* header section responsvie  */
+  .menu ul li {
+    margin-right: 20px;
+  }
+  .banner-description h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .banner-image img {
+    width: 270px;
+    height: auto;
+  }
+  /* player section responsive  */
+  .player-cover img {
+    width: 340px;
+  }
+  /* hight light section responsive  */
+  .highlights-section {
+    align-items: center;
+  }
+   /* form responsive  */
+   .form h1 {
+    font-size: 22px;
+  }
+
+  .form input {
+    width: 280px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    width: 80%;
+  }
+  /* header section responsive  */
+  .menu ul li {
+    margin-right: 12px;
+  }
+  .menu ul li a {
+    font-size: 14px;
+  }
+  .banner-description h2 {
+    font-size: 32px;
+    width: 300px;
+    line-height: 44px;
+  }
+
+  .banner-image img {
+    width: 250px;
+    height: auto;
+  }
+  /* player section responsive  */
+  .player-cover img {
+    width: 260px;
+  }
+  /* hightlight section responsive  */
+  .highlight-info h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 20px;
+  }
+  .highlight-image img {
+    width: 265px;
+    height: auto;
+  }
+  .highlight-info p {
+    font-size: 14px;
+  }
+  /*form responsive*/
+  .teams {
+    width: 250px;
+  }
+  
+}
+
+/* Moblie devices responsive css  */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  /* header section responsive */
+  header {
+    justify-content: inherit;
+  }
+  .nav-menu {
+    display: none;
+  }
+
+  .banner-section {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+  }
+  .banner-description {
+    padding-left: 20px;
+  }
+
+  .banner-description h2 {
+    font-size: 36px;
+    width: 278px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .banner-image {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .banner-image img {
+    width: 329px;
+    height: 260px;
+    text-align: center;
+  }
+
+  /* players section  responsive */
+  .players {
+    grid-template-columns: 50px 1fr 50px;
+    justify-content: center;
+    padding: 47px 10px;
+    box-sizing: border-box;
+  }
+  .player {
+    grid-column: 2/2;
+  }
+  .player-cover img {
+    width: 320px;
+    height: 250px;
+  }
+
+  /* highlishts section  responsive */
+  .highlights-section {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 0;
+  }
+  .highlight-info {
+    margin-bottom: 29px;
+  }
+  .highlight-info h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .highlight-image {
+    text-align: center;
+  }
+  .highlight-image img {
+    width: 328px;
+    height: 248px;
+  }
+
+  /* form  responsive */
+  .form {
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+  }
+
+  /* footer section  responsive */
+  footer {
+    margin-top: 43px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-logo img {
+    width: 150px;
+    height: 63px;
+    margin-bottom: 29px;
+  }
+}
+/* very small devices */
+@media only screen and (max-width: 360px) {
+  /* header section responsive  */
+  .banner-image img {
+    width: 260px;
+    height: auto;
+    text-align: center;
+  }
+  /* player section responsive */
+  .players {
+    grid-template-columns: 40px 1fr 40px;
+    padding: 47px 30px;
+    box-sizing: border-box;
+  }
+  .player-cover img {
+    width: 280px;
+    height: auto;
+  }
+  /* highlight section responsive  */
+  .highlight-image img {
+    width: 260px;
+    height: auto;
+  }
+  /*form*/
+   .form h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+}
